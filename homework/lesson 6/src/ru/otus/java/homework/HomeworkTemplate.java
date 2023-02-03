@@ -16,6 +16,7 @@ public class HomeworkTemplate {
 
         int[] correctAnswers = {2, 2};
 
+
         Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < questions.length; i++) {
 
@@ -26,7 +27,7 @@ public class HomeworkTemplate {
             }
             ;
 
-            String answer;
+             String answer;
             answer = scanner.nextLine();
             int answer_int;
             try {
